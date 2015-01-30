@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA4F22B1A7B7B8500C58A86 /* HWSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA4F22A1A7B7B8500C58A86 /* HWSnippet.m */; };
+		AAFF36B91A7B7D2F00D3D526 /* SnippetWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFF36B71A7B7D2F00D3D526 /* SnippetWindowController.m */; };
+		AAFF36BA1A7B7D2F00D3D526 /* SnippetWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAFF36B81A7B7D2F00D3D526 /* SnippetWindowController.xib */; };
+		AAFF36C61A7B7D4500D3D526 /* ATZDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFF36BD1A7B7D4500D3D526 /* ATZDownloader.m */; };
+		AAFF36C71A7B7D4500D3D526 /* ATZGit.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFF36BF1A7B7D4500D3D526 /* ATZGit.m */; };
+		AAFF36C81A7B7D4500D3D526 /* ATZPBXProjParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFF36C11A7B7D4500D3D526 /* ATZPBXProjParser.m */; };
+		AAFF36C91A7B7D4500D3D526 /* ATZShell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFF36C31A7B7D4500D3D526 /* ATZShell.m */; };
+		AAFF36CA1A7B7D4500D3D526 /* NSFileManager+Alcatraz.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFF36C51A7B7D4500D3D526 /* NSFileManager+Alcatraz.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAA4F21F1A7B7A4300C58A86 /* HWSnippet.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWSnippet.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA4F2231A7B7A4300C58A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA4F2291A7B7B8500C58A86 /* HWSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWSnippet.h; sourceTree = "<group>"; };
+		AAA4F22A1A7B7B8500C58A86 /* HWSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWSnippet.m; sourceTree = "<group>"; };
+		AAFF36B61A7B7D2F00D3D526 /* SnippetWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnippetWindowController.h; sourceTree = "<group>"; };
+		AAFF36B71A7B7D2F00D3D526 /* SnippetWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnippetWindowController.m; sourceTree = "<group>"; };
+		AAFF36B81A7B7D2F00D3D526 /* SnippetWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnippetWindowController.xib; sourceTree = "<group>"; };
+		AAFF36BC1A7B7D4500D3D526 /* ATZDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATZDownloader.h; sourceTree = "<group>"; };
+		AAFF36BD1A7B7D4500D3D526 /* ATZDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATZDownloader.m; sourceTree = "<group>"; };
+		AAFF36BE1A7B7D4500D3D526 /* ATZGit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATZGit.h; sourceTree = "<group>"; };
+		AAFF36BF1A7B7D4500D3D526 /* ATZGit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATZGit.m; sourceTree = "<group>"; };
+		AAFF36C01A7B7D4500D3D526 /* ATZPBXProjParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATZPBXProjParser.h; sourceTree = "<group>"; };
+		AAFF36C11A7B7D4500D3D526 /* ATZPBXProjParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATZPBXProjParser.m; sourceTree = "<group>"; };
+		AAFF36C21A7B7D4500D3D526 /* ATZShell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATZShell.h; sourceTree = "<group>"; };
+		AAFF36C31A7B7D4500D3D526 /* ATZShell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATZShell.m; sourceTree = "<group>"; };
+		AAFF36C41A7B7D4500D3D526 /* NSFileManager+Alcatraz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Alcatraz.h"; sourceTree = "<group>"; };
+		AAFF36C51A7B7D4500D3D526 /* NSFileManager+Alcatraz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Alcatraz.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA4F21C1A7B7A4300C58A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAA4F2161A7B7A4300C58A86 = {
+			isa = PBXGroup;
+			children = (
+				AAA4F2211A7B7A4300C58A86 /* HWSnippet */,
+				AAA4F2201A7B7A4300C58A86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA4F2201A7B7A4300C58A86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAA4F21F1A7B7A4300C58A86 /* HWSnippet.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA4F2211A7B7A4300C58A86 /* HWSnippet */ = {
+			isa = PBXGroup;
+			children = (
+				AAFF36BB1A7B7D4500D3D526 /* Helpers */,
+				AAA4F2221A7B7A4300C58A86 /* Supporting Files */,
+				AAA4F2291A7B7B8500C58A86 /* HWSnippet.h */,
+				AAA4F22A1A7B7B8500C58A86 /* HWSnippet.m */,
+				AAFF36B61A7B7D2F00D3D526 /* SnippetWindowController.h */,
+				AAFF36B71A7B7D2F00D3D526 /* SnippetWindowController.m */,
+				AAFF36B81A7B7D2F00D3D526 /* SnippetWindowController.xib */,
+			);
+			path = HWSnippet;
+			sourceTree = "<group>";
+		};
+		AAA4F2221A7B7A4300C58A86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAA4F2231A7B7A4300C58A86 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAFF36BB1A7B7D4500D3D526 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AAFF36BC1A7B7D4500D3D526 /* ATZDownloader.h */,
+				AAFF36BD1A7B7D4500D3D526 /* ATZDownloader.m */,
+				AAFF36BE1A7B7D4500D3D526 /* ATZGit.h */,
+				AAFF36BF1A7B7D4500D3D526 /* ATZGit.m */,
+				AAFF36C01A7B7D4500D3D526 /* ATZPBXProjParser.h */,
+				AAFF36C11A7B7D4500D3D526 /* ATZPBXProjParser.m */,
+				AAFF36C21A7B7D4500D3D526 /* ATZShell.h */,
+				AAFF36C31A7B7D4500D3D526 /* ATZShell.m */,
+				AAFF36C41A7B7D4500D3D526 /* NSFileManager+Alcatraz.h */,
+				AAFF36C51A7B7D4500D3D526 /* NSFileManager+Alcatraz.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA4F21E1A7B7A4300C58A86 /* HWSnippet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA4F2261A7B7A4300C58A86 /* Build configuration list for PBXNativeTarget "HWSnippet" */;
+			buildPhases = (
+				AAA4F21B1A7B7A4300C58A86 /* Sources */,
+				AAA4F21C1A7B7A4300C58A86 /* Frameworks */,
+				AAA4F21D1A7B7A4300C58A86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HWSnippet;
+			productName = HWSnippet;
+			productReference = AAA4F21F1A7B7A4300C58A86 /* HWSnippet.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAA4F2171A7B7A4300C58A86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = cdsb;
+				TargetAttributes = {
+					AAA4F21E1A7B7A4300C58A86 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = AAA4F21A1A7B7A4300C58A86 /* Build configuration list for PBXProject "HWSnippet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAA4F2161A7B7A4300C58A86;
+			productRefGroup = AAA4F2201A7B7A4300C58A86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAA4F21E1A7B7A4300C58A86 /* HWSnippet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAA4F21D1A7B7A4300C58A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFF36BA1A7B7D2F00D3D526 /* SnippetWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAA4F21B1A7B7A4300C58A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFF36C61A7B7D4500D3D526 /* ATZDownloader.m in Sources */,
+				AAFF36C81A7B7D4500D3D526 /* ATZPBXProjParser.m in Sources */,
+				AAA4F22B1A7B7B8500C58A86 /* HWSnippet.m in Sources */,
+				AAFF36C71A7B7D4500D3D526 /* ATZGit.m in Sources */,
+				AAFF36C91A7B7D4500D3D526 /* ATZShell.m in Sources */,
+				AAFF36CA1A7B7D4500D3D526 /* NSFileManager+Alcatraz.m in Sources */,
+				AAFF36B91A7B7D2F00D3D526 /* SnippetWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AAA4F2241A7B7A4300C58A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AAA4F2251A7B7A4300C58A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AAA4F2271A7B7A4300C58A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				INFOPLIST_FILE = HWSnippet/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		AAA4F2281A7B7A4300C58A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				INFOPLIST_FILE = HWSnippet/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAA4F21A1A7B7A4300C58A86 /* Build configuration list for PBXProject "HWSnippet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA4F2241A7B7A4300C58A86 /* Debug */,
+				AAA4F2251A7B7A4300C58A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA4F2261A7B7A4300C58A86 /* Build configuration list for PBXNativeTarget "HWSnippet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA4F2271A7B7A4300C58A86 /* Debug */,
+				AAA4F2281A7B7A4300C58A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAA4F2171A7B7A4300C58A86 /* Project object */;
+}
